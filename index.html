@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <section Textos>
+<body style="background-color: black; color: white;">
+    <section id="textos">
         <h1>Módulo 3 – Textos</h1>
         <br>
         <h1>Titulo de nivel 1</h1>
@@ -47,7 +47,7 @@
         <hr>
     </section>
 
-    <section Links>
+    <section id="links">
         <h1>Módulo 4 – Links</h1>
         <p>Tag &lt;a&gt; link</p>
         <br>
@@ -63,11 +63,71 @@
         <hr>
     </section>
     
-    <section imagens>
+    <section id="imagens">
         <p><strong>Gera uma immagem na página, gerando ela de algum diretório: </strong>Tag &lt;img src=”” alt=””&gt; exemplo:</p>
         <img src="96or4eynlgtg1.jpeg" alt="kyllian ditador">
         <p><strong>Aumenta o tamanho da imagem: </strong>Tag &lt;img height=”50%” width=”50%” src=”” alt=””&gt;</p>
         <img height="50%" width="50%" src="96or4eynlgtg1.jpeg" alt="kyllian ditador">
+        <hr>
+    </section>
+
+    <section id="listas">
+        <h1>Módulo 6 – Listas</h1>
+        <br>
+        <p><strong>Listas ordenadas: </strong> &lt;ol&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ol&gt;</p>
+        <p><strong>Exemplos:</strong></p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <br>
+        <p><strong>Listas não ordenadas: </strong> &lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</p>
+        <p><strong>Exemplos:</strong></p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <br>
+        <p><strong>Listas alinhadas ( lista dentro de lista )</strong></p>
+        <p>O atributo type altera a forma como os itens da lista são exibidos. Em listas ordenadas (&lt;ol&gt;), ele é válido e 
+            pode exibir números, letras ou algarismos romanos. Já em listas não ordenadas (&lt;ul&gt;), ele existia para alterar
+            o marcador da lista, mas é considerado obsoleto em HTML5, sendo recomendado utilizar CSS para essa alteração.
+        </p>
+        <p><strong>Exemplo:</strong></p>
+        <ul>
+            <li>Item 1</li>
+                <ul>
+                    <li>Item 1.1</li>
+                    <li>Item 1.2</li>
+                </ul>
+            <li>Item 2</li>
+                <ul>
+                    <li>Item 2.1</li>
+                    <li>Item 2.2</li>
+                </ul>
+            <li>Item 3</li> 
+                <ul>
+                    <li>Item 3.1</li>
+                    <li>Item 3.2</li>
+                </ul>
+        </ul>
+        <br>
+        <p><strong>Personalização (type="A", type="1")</strong></p>
+        <p><strong>Exemplo:</strong></p>
+        <ol type="A">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <ul>            
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <hr>
     </section>
 </body>
 </html>
